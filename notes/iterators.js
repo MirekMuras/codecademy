@@ -10,11 +10,13 @@ Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_O
  const muttatedArray = arrays.map(array => {return array});
 
  /**.forEach() is used to execute the same code on every element in an array
-   but does not change the array and returns undefined. */
+   but does not change the array and returns undefined. 
+   - return undifined */
  const changeEachElementInArray = arrays.forEach( array => {console.log(array)});
 
 /* .filter() checks every element in an array to see if it meets certain criteria and 
-returns a new array with the elements that return truthy for the criteria. */
+returns a new array with the elements that return truthy for the criteria. 
+- return a new array for satisfied parameter */
  const filteredArray = arrays.filter(indexOfElement  => {return indexOfElement > 1});
 
  /*.reduce() iterates through an array and takes the values of the elements and returns a single value.*/
@@ -25,7 +27,8 @@ returns a new array with the elements that return truthy for the criteria. */
  const findIndexOfElement = arrays.findIndex(array => {return array > 1})
 
  /*The some() method tests whether at least one element in the array passes the test implemented by the provided
-  function. It returns a Boolean value.*/
+  function. It returns a Boolean value.
+  - return boolean */
  const testArray = arrays.some(element => {return element%2 === 0} )
 
 
