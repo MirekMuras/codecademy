@@ -34,7 +34,7 @@ let _objectName = {
 //###                                           ACCESS OBJECT
 
 // 1) One way to access an object is by - dot notation '.'
-// if a proprty does not exist in an object , 'undifined' will be returned
+// if a property does not exist in an object , 'undifined' will be returned
 _objectName.object_proparty;
 
 // 2) the second way to access an object is by - bracket notation '[]'

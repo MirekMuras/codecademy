@@ -16,7 +16,11 @@ Link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_O
 
 /* .filter() checks every element in an array to see if it meets certain criteria and 
 returns a new array with the elements that return truthy for the criteria. 
-- return a new array for satisfied parameter */
+- return a new array for satisfied parameter 
+-  Like .map(), .filter() returns a new array. However, .filter() returns an array of elements after 
+filtering out certain elements from the original array. 
+The callback function for the .filter() method should return true or false depending on the element 
+3that is passed to it. The elements that cause the callback function to return true are added to the new array.*/
  const filteredArray = arrays.filter(indexOfElement  => {return indexOfElement > 1});
 
  /*.reduce() iterates through an array and takes the values of the elements and returns a single value.*/

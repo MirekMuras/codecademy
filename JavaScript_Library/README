@@ -1,0 +1,19 @@
+### With lodash.js I will be implementing some of the most exciting functionality
+from widly popular javaScript library.
+
+1. Specify
+   inRange(number,start,end)
+    if(number < start) return false;
+    if(number => end) return false;
+    if(!end) return start === 0 && end === start
+    if( number > end)  const p = number , number === end , end === p
+
+2. Ideate
+
+
+3. implement
+
+
+4. test
+
+

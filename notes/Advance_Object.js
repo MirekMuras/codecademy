@@ -10,7 +10,7 @@
  * 
  * 1)   Getters : methods that get and return the value of internal proprties of an object
  *  - we use the 'get' keyword followed by a function
- *  - use an */ if ... else /** confitional check 
+ *  - use an  if ... else  confitional check 
     -  Getters can perform an action on the data when getting a property.
     -  Getters can return different values using conditionals.
     -  The functionality of our code is easier for other developers to understand.  */
