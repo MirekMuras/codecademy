@@ -71,19 +71,32 @@ findKey(object, predicate) {
       }      
 },
 
-drop(array, dropDown) {
+drop(array, n) {
+    if( n === undefined) n = 1;
 
-    if( dropDown === null) return dropDown = 1;
-
-    array.slice( e => 
-        
-        
-        
-        
-        )
+    let droppedArray = array.slice(n);
+    return droppedArray;
 },
 
-  
+dropWhile(array, predicate) {
+    var dropNumber = array.findIndex((element,index) => !predicate(element,index,array))
+    
+    var droppedArray = this.drop(array, dropNumber);
+    return droppedArray;
+},
+
+chunk(array,size) {
+    if(size === null) size = 1;
+
+    let arrayChunks = [];
+    for (let index = 0; index < array.length; index += size) {
+
+        let arrayChunk = array.slice(index, index + size);
+        arrayChunks.push(arrayChunk)        
+    }
+
+    return arrayChunks;
+},
 
 
 }
